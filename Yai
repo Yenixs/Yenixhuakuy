@@ -1,3 +1,8 @@
 local ht = (game.PlaceId == 86076978383613 or game.PlaceId == 103754275310547)
-local 9n = (game.PlaceId == 79546208627805 or game.PlaceId == 126509999114328)
-if ht then loadstring(game:HttpGet("https://raw.githubusercontent.com/Yenixs/Map/refs/heads/main/HeeDum.lua"))() elseif 9n loadstring(game:HttpGet("https://raw.githubusercontent.com/Yenixs/Map/refs/heads/main/Maps.lua"))() end
+local n9 = (game.PlaceId == 79546208627805 or game.PlaceId == 126509999114328)
+
+if ht then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Yenixs/Map/refs/heads/main/HeeDum.lua"))()
+elseif n9 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Yenixs/Map/refs/heads/main/Maps.lua"))()
+end
